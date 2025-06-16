@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>--</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/all.min.css">
+    <!-- Ajoutez highlight.js pour la coloration syntaxique -->
+    <link rel="stylesheet" href="styles/default.min.css">
+</head>
+<body>
+<div class="chat-container">
+    <div class="header">
+        <button id="translate-btn">Traduction</button>
+        <button id="tech-btn">Sujets Techniques</button>
+    </div>
+    <div id="chat-box">
+        <!-- Les messages seront ajoutés ici dynamiquement -->
+    </div>
+    <div class="input-container">
+        <textarea id="user-input" placeholder="Tapez votre message..." autocomplete="off"></textarea>
+        <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+</div>
+<!-- Ajoutez marked.js pour le rendu Markdown -->
+<script src="scripts/marked.min.js"></script>
+<!-- Ajoutez highlight.js pour la coloration syntaxique -->
+<script src="scripts/highlight.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
